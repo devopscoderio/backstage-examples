@@ -14,3 +14,15 @@ spec:
   type: service
   lifecycle: production
   owner: auth-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: shopping-cart
+  description: shopping cart
+  tags:
+    - javascript
+spec:
+  type: website
+  lifecycle: production
+  owner: guest
